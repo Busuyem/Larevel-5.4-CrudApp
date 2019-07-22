@@ -20,7 +20,7 @@
     </div>
 
     <button type="submit" class="btn btn-primary">Update</button>
-    <a href="{{'/'}}" class="btn btn-info m-2">Back</a>
+    <a href="{{url('/')}}" class="btn btn-info m-2">Back</a>
   </fieldset>
 </form>
 </div>

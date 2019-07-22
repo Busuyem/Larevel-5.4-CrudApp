@@ -30,7 +30,7 @@
   </fieldset>
   <div class="container mt-3">
   <button type="submit" class="btn btn-primary">Submit</button>
-    <a href="{{'/'}}" class="btn btn-info">Back</a>
+    <a href="{{url('/')}}" class="btn btn-info">Back</a>
     </div>
 </form>
 </div>
