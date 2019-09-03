@@ -8,7 +8,7 @@ use App\Article;
 class CreatesController extends Controller
 {
     public function home(){
-        $articles = Article::all();
+        $articles = Article::orderBy("id", "desc")->paginate(15);
         return view('home', ['articles'=>$articles]);
        
     }
